@@ -1,0 +1,27 @@
+body {
+    background-color: #302b2b;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+div {
+    display: flex;
+    background: linear-gradient(to right, #fdfdfd, #dedede);
+    width: 200px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius:2rem;
+}
+.bot {
+    border-radius: 10px;
+}
+.fonte {
+    font-family: sans-serif;
+    color: #3d3d3d;
+}
