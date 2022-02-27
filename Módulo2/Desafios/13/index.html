@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Carros</title>
+</head>
+<body>
+    <h1>Cadastro de Veículos</h1>
+    <label for="modelo">Modelo: </label>
+    <input id="modelo" type="text">
+    <hr>
+    <label for="ano">Ano</label>
+    <input id="ano" type="number">
+    <hr>
+    <label for="cor">Cor: </label>
+    <input id="cor" type="color">
+    <hr>
+    <select name="situação" id="situação">
+        <option value="novo">Novo</option>
+        <option value="usado">Usado</option>
+        <option value="velho">Velho</option>
+        <option value="zero">Zero KM</option>
+    </select>
+    <button onclick="cadastro()">Inserir</button>
+    <script src="carros.js"></script>
+</body>
+</html>
