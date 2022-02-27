@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gasto do Paulo</title>
+</head>
+<body>
+    <h1>Gasto do Paulo</h1>
+    <p>
+        Paulo quer fazer entregas com seu carro e precisa saber se vale a pena de acordo com o custo.
+        Seu carro possui um taque de 40 litros de gasolina.
+        O carro faz 12km/L de gasolina em media.
+        A distancia entre sua casa e o local onde retira as encomendas é de 10km.
+        As entregas em media variam entre 5 e 15km de distancia do centro de distribuicao.
+        ele vai receber entre 5 e 10 encomendas por dia para entregar.
+        A valor da gasolina esta R$ 5,50
+        Dado essas condicoes faca um programa que calcule o gasto mensal do Paulo (20 dias).
+    </p>
+    <hr>
+    <label for="distancia">Digite a distância média das estregas mensais (entre 5 e 15 quilômetros):</label>
+    <input id="distancia" type="number">
+    <br>
+    <label for="encomenda">Digite o número médio de encomendas diárias (de 5 à 10)</label>
+    <input id="encomenda" type="number">
+    <br>
+    <label for="dias">Agora, o número de dias trabalhados</label>
+    <input id="dias" type="number">
+    <br>
+    <button onclick="gasto()">Calcular</button>
+    <hr>
+    <label for="gasto">Gasto médio mensal: </label>
+    <input id="gasto" type="text" readonly>
+    <br>
+    <label for="litro">Litros de gasolina usados: </label>
+    <input id="litro" type="text" readonly>
+    <br>
+    <label for="abastecer">Quantas vezes, em média, será preciso abastecer</label>
+    <input id="abastecer" type="text" readonly>
+    <script src="viagem.js"></script>
+</body>
+</html>
